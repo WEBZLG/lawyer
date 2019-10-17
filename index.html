@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="misapplication-tap-highlight" content="no" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<title>首页</title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">慕法法律咨询</h1>
+		</header>
+		<div class="body-con">
+			<div class="mui-content">
+				<!-- 轮播 -->
+				<div class="banner">
+					<div class="mui-slider banner-slider">
+						<div class="mui-slider-group mui-slider-loop">
+							<!--支持循环，需要重复图片节点-->
+							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner1.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="images/banner1.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="images/banner1.png" /></a></div>
+							<div class="mui-slider-item"><a href="#"><img src="images/banner1.png" /></a></div>
+							<!--支持循环，需要重复图片节点-->
+							<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner1.png" /></a></div>
+						</div>
+					</div>
+				</div>
+				<!-- 咨询律师 -->
+				<div class="lawyer-list">
+					<div class="pub-sm-title">
+						<div class="vertical-line">咨询律师</div>
+						<a href="#" class="view-more">更多</a>
+					</div>
+					<div class="type-list">
+						<ul>
+							<li>
+								<a href="#">
+									<div class="type-icon"><img src="images/1.png"></div>
+									<h4 class="type-title">免费咨询</h4>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="type-icon"><img src="images/2.png"></div>
+									<h4 class="type-title">专业咨询</h4>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="type-icon"><img src="images/3.png"></div>
+									<h4 class="type-title">找律师</h4>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="type-icon"><img src="images/4.png"></div>
+									<h4 class="type-title">律师函件</h4>
+							</li>
+							<li>
+								<a href="#">
+									<div class="type-icon"><img src="images/5.png"></div>
+									<h4 class="type-title">合同审核</h4>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 热门咨询 -->
+				<div class="hot-list">
+					<div class="pub-sm-title">
+						<div class="vertical-line">热门咨询</div>
+						<a href="#" class="view-more">更多</a>
+					</div>
+					<div class="hot-type">
+						<div class="type-box">
+							<a href="#"><img src="images/hunyin.png"></a>
+							<a href="#"><img src="images/laodong.png"></a>
+						</div>
+						<div class="type-box">
+							<a href="#"><img src="images/hetong.png"></a>
+							<a href="#"><img src="images/jiaotong.png"></a>
+						</div>
+						<div class="type-box">
+							<a href="#"><img src="images/fangchan.png"></a>
+							<a href="#"><img src="images/zhaiwu.png"></a>
+						</div>
+					</div>
+				</div>
+				<!-- 推荐律师 -->
+				<div class="recommend-list">
+					<div class="pub-sm-title">
+						<div class="vertical-line">推荐律师</div>
+						<a href="#" class="view-more">更多</a>
+					</div>
+					<div class="recom-tab">
+						<div id="slider" class="mui-slider mui-fullscreen">
+							<div id="sliderSegmentedControl" class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+								<div class="mui-scroll">
+									<a class="mui-control-item mui-active" href="#item1mobile">
+										婚姻家庭
+									</a>
+									<a class="mui-control-item" href="#item2mobile">
+										债权债务
+									</a>
+									<a class="mui-control-item" href="#item3mobile">
+										房产土地
+									</a>
+									<a class="mui-control-item" href="#item4mobile">
+										交通事故
+									</a>
+									<a class="mui-control-item" href="#item5mobile">
+										行政纠纷
+									</a>
+									<a class="mui-control-item" href="#item6mobile">
+										刑事纠纷
+									</a>
+								</div>
+							</div>
+							<div class="mui-slider-group">
+								<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+									<div id="scroll1" class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师1</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师1</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师1</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师1</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item2mobile" class="mui-slider-item mui-control-content">
+									<div class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师2</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item3mobile" class="mui-slider-item mui-control-content">
+									<div class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师3</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item4mobile" class="mui-slider-item mui-control-content">
+									<div class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师4</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item5mobile" class="mui-slider-item mui-control-content">
+									<div class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师5</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item6mobile" class="mui-slider-item mui-control-content">
+									<div class="mui-scroll-wrapper">
+										<div class="mui-scroll">
+											<div class="recom-item">
+												<div class="head-img">
+													<img src="images/touxiang.png">
+												</div>
+												<div class="infor">
+													<div class="intro">
+														<p class="intro-name">王律师6</p>
+														<p class="intro-city">北京市</p>
+														<p class="intro-company">xxx律师事务所</p>
+													</div>
+													<div class="tags">
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+														<span class="tag">婚姻家庭</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div id="bghover"></div>
+			<div id="popover" class="mui-popover">
+				<h4 class="pub-title">请选择服务类型</h4>
+				<div class="pub-nav">
+					<ul>
+						<li>
+							<div class="publish">
+								<h5>免费咨询</h5>
+								<p>律师免费为您解答疑问</p>
+							</div>
+							<div class="pub-icon"><img src="images/next.png"></div>
+						</li>
+						<li>
+							<div class="publish">
+								<h5>专业咨询 </h5>
+								<p>专业律师帮您“走出困扰”</p>
+							</div>
+							<div class="pub-icon"><img src="images/next.png"></div>
+						</li>
+						<li>
+							<div class="publish">
+								<h5>律师函件</h5>
+								<p>催款、辟谣、声明、佐证的重要武器</p>
+							</div>
+							<div class="pub-icon"><img src="images/next.png"></div>
+						</li>
+						<li>
+							<div class="publish">
+								<h5>合同审核</h5>
+								<p>优秀律师帮您规避合同“陷阱”</p>
+							</div>
+							<div class="pub-icon"><img src="images/next.png"></div>
+						</li>
+						<li>
+							<div class="publish">
+								<h5>合同定制</h5>
+								<p>为您量身定制“专属合同”</p>
+							</div>
+							<div class="pub-icon"><img src="images/next.png"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="pub-close"><img src="images/close.png"></div>
+			</div>
+		
+		<script src="js/util.js"></script>
+		<script src="js/mui.pullToRefresh.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.pullToRefresh.material.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			(function($) {
+				mui.init({
+					swipeBack: true //启用右滑关闭功能
+				});
+				mui.plusReady(function() {
+					//获得slider插件对象
+					var gallery = mui('.banner-slider');
+					gallery.slider({
+						interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+					});
+
+
+					var self = plus.webview.currentWebview(),
+						leftPos = Math.ceil((window.innerWidth - 60) / 2); // 设置凸起大图标为水平居中
+
+					/**	
+					 * drawNativeIcon 绘制带边框的半圆，
+					 * 实现原理：
+					 *   id为bg的tag 创建带边框的圆
+					 *   id为bg2的tag 创建白色矩形遮住圆下半部分，只显示凸起带边框部分
+					 * 	 id为iconBg的红色背景图
+					 *   id为icon的字体图标
+					 *   注意创建先后顺序，创建越晚的层级越高
+					 */
+					var drawNativeIcon = util.drawNative('icon', {
+						bottom: '5px',
+						left: leftPos + 'px',
+						width: '60px',
+						height: '60px'
+					}, [{
+						tag: 'rect',
+						id: 'bg',
+						position: {
+							top: '0px',
+							left: '0px',
+							width: '100%',
+							height: '100%'
+						},
+						rectStyles: {
+							color: '#fff',
+							radius: '50%',
+							borderColor: '#ccc',
+							borderWidth: '1px'
+						}
+					}, {
+						tag: 'rect',
+						id: 'bg2',
+						position: {
+							bottom: '-0.5px',
+							left: '0px',
+							width: '100%',
+							height: '46px'
+						},
+						rectStyles: {
+							color: '#fff'
+						}
+					}, {
+						tag: 'rect',
+						id: 'iconBg',
+						position: {
+							top: '5px',
+							left: '5px',
+							width: '50px',
+							height: '50px'
+						},
+						rectStyles: {
+							color: '#2E82FF',
+							radius: '50%'
+						}
+					}, {
+						tag: 'font',
+						id: 'icon',
+						text: '\ueb8f', //此为字体图标Unicode码'\e600'转换为'\ue600'
+						position: {
+							top: '0px',
+							left: '5px',
+							width: '50px',
+							height: '100%'
+						},
+						textStyles: {
+							fontSrc: '_www/fonts/iconfont.ttf',
+							align: 'center',
+							color: '#fff',
+							size: '30px'
+						}
+					}]);
+					// append 到父webview中
+					self.append(drawNativeIcon);
+
+					//自定义监听图标点击事件
+					var active_color = '#fff';
+					drawNativeIcon.addEventListener('click', function(e) {
+						//调用隐藏/显示弹出层
+						mui("#popover").popover('toggle', document.getElementById("bghover"));
+						mui("#popover").on("tap", ".pub-close", function() {
+							mui("#popover").popover('hide', document.getElementById("bghover"));
+						})
+						// 重绘字体颜色
+						if (active_color == '#fff') {
+							drawNativeIcon.drawText('\ueb8f', {}, {
+								fontSrc: '_www/fonts/iconfont.ttf',
+								align: 'center',
+								color: '#fff',
+								size: '30px'
+							}, 'icon');
+							active_color = '#fff';
+						} else {
+							drawNativeIcon.drawText('\ueb8f', {}, {
+								fontSrc: '_www/fonts/iconfont.ttf',
+								align: 'center',
+								color: '#fff',
+								size: '30px'
+							}, 'icon');
+							active_color = '#fff';
+						}
+
+					});
+					// 中间凸起图标绘制及监听点击完毕
+
+					// 创建子webview窗口 并初始化
+					var aniShow = {};
+					util.initSubpage(aniShow);
+
+					var nview = plus.nativeObj.View.getViewById('tabBar'),
+						activePage = plus.webview.currentWebview(),
+						targetPage,
+						subpages = util.options.subpages,
+						pageW = window.innerWidth,
+						currIndex = 0;
+
+
+					/**
+					 * 根据判断view控件点击位置判断切换的tab
+					 */
+					nview.addEventListener('click', function(e) {
+						var clientX = e.clientX;
+						if (clientX > 0 && clientX <= parseInt(pageW * 0.25)) {
+							currIndex = 0;
+						} else if (clientX > parseInt(pageW * 0.25) && clientX <= parseInt(pageW * 0.45)) {
+							currIndex = 1;
+						} else if (clientX > parseInt(pageW * 0.45) && clientX <= parseInt(pageW * 0.8)) {
+							currIndex = 2;
+						} else {
+							currIndex = 3;
+						}
+						// 匹配对应tab窗口	
+						if (currIndex > 0) {
+							targetPage = plus.webview.getWebviewById(subpages[currIndex - 1]);
+						} else {
+							targetPage = plus.webview.currentWebview();
+						}
+
+						if (targetPage == activePage) {
+							return;
+						} else {
+							//底部选项卡切换
+							util.toggleNview(currIndex);
+							// 子页面切换
+							util.changeSubpage(targetPage, activePage, aniShow);
+							//更新当前活跃的页面
+							activePage = targetPage;
+						}
+
+						// if (currIndex !== 3) {
+						// 	util.toggleNview(currIndex);
+						// 	// 子页面切换
+						// 	util.changeSubpage(targetPage, activePage, aniShow);
+						// 	//更新当前活跃的页面
+						// 	activePage = targetPage;
+						// } else {
+						// 	//第四个tab 打开新窗口
+						// 	plus.webview.open('html/new-webview.html', 'new', {}, 'slide-in-right', 200);
+						// }
+					});
+				});
+				//阻尼系数
+				// var deceleration = mui.os.ios?0.003:0.0009;
+				// $('.mui-scroll-wrapper').scroll({
+				// 	bounce: false,
+				// 	indicators: true, //是否显示滚动条
+				// 	deceleration:deceleration
+				// });
+				// $.ready(function() {
+				// 	//循环初始化所有下拉刷新，上拉加载。
+				// 	$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
+				// 		$(pullRefreshEl).pullToRefresh({
+				// 			down: {
+				// 				callback: function() {
+				// 					var self = this;
+				// 					setTimeout(function() {
+				// 						var ul = self.element.querySelector('.mui-table-view');
+				// 						ul.insertBefore(createFragment(ul, index, 10, true), ul.firstChild);
+				// 						self.endPullDownToRefresh();
+				// 					}, 1000);
+				// 				}
+				// 			},
+				// 			up: {
+				// 				callback: function() {
+				// 					var self = this;
+				// 					setTimeout(function() {
+				// 						var ul = self.element.querySelector('.mui-table-view');
+				// 						ul.appendChild(createFragment(ul, index, 5));
+				// 						self.endPullUpToRefresh();
+				// 					}, 1000);
+				// 				}
+				// 			}
+				// 		});
+				// 	});
+				// 	var createFragment = function(ul, index, count, reverse) {
+				// 		var length = ul.querySelectorAll('li').length;
+				// 		var fragment = document.createDocumentFragment();
+				// 		var li;
+				// 		for (var i = 0; i < count; i++) {
+				// 			li = document.createElement('li');
+				// 			li.className = 'mui-table-view-cell';
+				// 			li.innerHTML = '第' + (index + 1) + '个选项卡子项-' + (length + (reverse ? (count - i) : (i + 1)));
+				// 			fragment.appendChild(li);
+				// 		}
+				// 		return fragment;
+				// 	};
+				// });
+			})();
+		</script>
+	</body>
+
+</html>
